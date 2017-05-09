@@ -4,15 +4,19 @@ public class Car {
 
 	int id;
 	String model;
-	double capacity;
+	int capacity;
 	
-	public Car(int i, String model, double cap) {
+	public Car(int i, String model, int cap) {
 		this.id=i;
 		this.model=model;
 		this.capacity=cap;
 	}
 
-	public double getEngineCapacity()
+	public Car(int d) {
+		this.capacity=d;
+	}
+
+	public int getEngineCapacity()
 	{
 		return this.capacity;
 	}
