@@ -7,6 +7,7 @@ public class main {
 		Car car2 = new Car(2,"Maruti",25.5);
 		
 		System.out.println(car1.getEngineCapacity());
+		System.out.println(car2.getEngineCapacity());
 	}
 
 }
